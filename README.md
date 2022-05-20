@@ -3,7 +3,7 @@
 ![Cover image](https://www.mischianti.org/wp-content/uploads/2020/10/LoRa-wireless-remote-water-tank-and-pump-controller-esp8266-main-768x491.jpg)
 
 ### Changelog
- - 10/05/2022 v1.0 First release
+ - 20/05/2022 v1.0 First release
 
 ### Problem
 First the problem: I must refill a 1,5Km far water tank, so I need two devices:
