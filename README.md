@@ -7,7 +7,7 @@
 
 ### Problem
 First the problem: I must refill a 1,5Km far water tank, so I need two devices:
- - a server that manages a pump: if the remote tank isn�t full the server start the pump with a relay and when the tank is full, stop the pump.
+ - a server that manages a pump: if the remote tank isn't full the server start the pump with a relay and when the tank is full, stop the pump.
     - Start-stop pump;
     - Manage the remote message;
     - Prevent dangerous action if the remote device is no more active;
