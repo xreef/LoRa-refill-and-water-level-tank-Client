@@ -26,8 +26,8 @@ Here is a simple demo video.
 
 ### Documentation
  1. [LoRa remote water tank level and pump controller: intro](https://www.mischianti.org/2022/05/03/lora-remote-water-tank-level-and-pump-controller-rewal-intro-1/)
- 2. LoRa remote water level and pump controller: server software
- 3. LoRa remote water level and pump controller: client software
+ 2. [LoRa remote water level and pump controller: server software](https://www.mischianti.org/2022/05/10/lora-remote-water-level-and-pump-controller-esp8266-server-software-2/)
+ 3. [LoRa remote water level and pump controller: client software](https://www.mischianti.org/2022/05/20/lora-remote-water-level-and-pump-controller-rewal-client-software-3/)
  4. LoRa remote water level and pump controller: server PCB
  5. LoRa remote water level and pump controller: client PCB
  6. LoRa remote water level and pump controller: entire server with 3D printed case
