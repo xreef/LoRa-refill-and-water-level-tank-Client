@@ -193,8 +193,8 @@ void loop()
 		DEBUG_PRINTLN("Start listening!");
 
 #ifdef ACTIVATE_OTA
-	const char* ssid = "reef-casa-sopra";
-	const char* password = "aabbccdd77";
+	const char* ssid = "YOUR-SSID";
+	const char* password = "YOUR-PASSWD";
 
 	delay(100);
 #ifdef TANK_DEBUG
@@ -203,12 +203,16 @@ void loop()
 	DEBUG_PRINTLN("Booting");
 	WiFi.mode(WIFI_STA);
 	WiFi.begin(ssid, password);
-	if (WiFi.waitForConnectResult() != WL_CONNECTED) {
-		DEBUG_PRINTLN("Connection Failed! Rebooting...");
-	  delay(5000);
-	//   ESP.restart();
-	} else {
-	delay(1000);
+//	if (WiFi.waitForConnectResult() != WL_CONNECTED) {
+//		DEBUG_PRINTLN("Connection Failed! Rebooting...");
+//	  delay(5000);
+//	//   ESP.restart();
+//	} else {
+	delay(4000);
+
+	if (WiFi.status() == WL_CONNECTED) {
+
+//	delay(1000);
 	DEBUG_PRINTLN("Ready");
 	DEBUG_PRINT("IP address: ");
 	DEBUG_PRINTLN(WiFi.localIP());

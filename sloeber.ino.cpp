@@ -2,7 +2,7 @@
 //This is a automatic generated file
 //Please do not modify this file
 //If you touch this file your change will be overwritten during the next build
-//This file has been generated on 2022-02-14 11:54:36
+//This file has been generated on 2023-08-17 15:49:36
 
 #include "Arduino.h"
 #include "Arduino.h"
@@ -32,7 +32,7 @@ void IRAM_ATTR minCallack();
 void IRAM_ATTR maxCallack();
 float getBatteryVoltage();
 
-#include "WeMosTankManagerClient.ino"
 
+#include "LoRa-refill-and-water-level-tank-Client.ino"
 
 #endif
